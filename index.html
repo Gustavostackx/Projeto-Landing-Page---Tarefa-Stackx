@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvestech - Tecnologia Gamer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0d001a;
+            color: #ffffff;
+            font-family: 'Segoe UI', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+    background: url('Imagem futurista tarefa projeto landing page.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+        .navbar {
+            background-color: #3a0072;
+            padding: 20px 0;
+        }
+        .hero {
+            background: linear-gradient(135deg, #3a0072, #8a2be2);
+            padding: 120px 20px;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+        }
+        .hero p {
+            font-size: 1.3rem;
+        }
+        .card {
+            background-color: #180033;
+            color: #ffffff;
+            border: 1px solid #3a0072;
+            padding: 30px;
+            transition: transform .3s, box-shadow .3s;
+            min-height: 220px;
+        }
+        .card:hover {
+            transform: scale(1.07);
+            box-shadow: 0 0 25px rgba(138, 43, 226, 0.7);
+        }
+        .btn-purple {
+            background-color: #8a2be2;
+            color: #fff;
+            padding: 12px 25px;
+            font-size: 1.2rem;
+            border-radius: 8px;
+        }
+        .btn-purple:hover {
+            background-color: #3a0072;
+            color: #fff;
+        }
+        section {
+            margin-bottom: 80px;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            text-shadow: 0 0 10px rgba(138,43,226,0.8);
+        }
+        img {
+            box-shadow: 0 0 25px rgba(138, 43, 226, 0.5);
+        }
+        footer {
+            background-color: #3a0072;
+            padding: 25px;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navebar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Alvestech</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero text-center text-white">
+    <h1 class="display-4 fw-bold">Equipamentos Gamer de Alta Performance</h1>
+    <p class="lead mt-3">Peças de computadores, periféricos e eletrônicos com design futurista e qualidade premium.</p>
+    <a href="#produtos" class="btn btn-purple btn-lg mt-4">Explorar Produtos</a>
+</section>
+
+<!-- PRODUTOS / BENEFÍCIOS -->
+<section class="container my-5" id="produtos">
+    <h2 class="text-center mb-4 fw-bold">Produtos em Destaque</h2>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card p-3 text-center">
+                <h4 class="fw-bold">Teclado Mecânico RGB</h4>
+                <p>Switches rápidos, iluminação roxa e design futurista.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 text-center">
+                <h4 class="fw-bold">Mouse Gamer Precision</h4>
+                <p>Alta precisão, leveza extrema e resposta ultrarrápida.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 text-center">
+                <h4 class="fw-bold">Headset Imersivo</h4>
+                <p>Som cristalino e conforto máximo para longas partidas.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEÇÃO IMAGEM + TEXTO -->
+<section class="container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <img src="https://via.placeholder.com/500x350/3a0072/ffffff?text=Alvestech+Gamer" 
+                 class="img-fluid rounded" alt="Imagem futurista">
+        </div>
+        <div class="col-md-6">
+            <h3 class="fw-bold">Tecnologia Que Leva Você ao Próximo Nível</h3>
+            <p>Na Alvestech criamos produtos que combinam estilo, qualidade e desempenho para gamers que buscam o máximo. Experiência, durabilidade e visual futurista fazem parte do nosso DNA.</p>
+        </div>
+    </div>
+</section>
+
+<!-- FORMULÁRIO -->
+<section class="p-5" style="background-color: #130022;" id="contato">
+    <div class="container">
+        <h2 class="text-center mb-4 fw-bold">Fale com a Alvestech</h2>
+        <form class="col-md-6 mx-auto">
+            <input type="text" class="form-control mb-3" placeholder="Seu nome">
+            <input type="email" class="form-control mb-3" placeholder="Seu e-mail">
+            <textarea class="form-control mb-3" rows="4" placeholder="Mensagem"></textarea>
+            <button class="btn btn-purple w-100">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<!-- RODAPÉ -->
+<footer class="text-center text-white p-3">
+    © 2025 - Alvestech | Tecnologia Gamer Futurista
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
